@@ -1,3 +1,65 @@
+body {
+    background-color: #c3d1da; 
+    margin: 0;
+    padding: 0 10%;
+    font-size: 15px;
+}
+
+body:first-child {
+    margin: 500px;
+}
+
+.mainTitle {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    height: 55px;
+    color: #68afdb;
+}
+
+.image {
+    display: block;
+    width: 500px;
+    border: 6px solid #62b1e2;
+    margin-bottom: 50px;
+    box-shadow: 4px 5px 5px #c46bee ;
+}
+
+.titleSecond {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    height: 35px;
+    color: #c46bee;
+}
+
+.aboutMe {
+    text-indent: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 abbr {
     text-decoration: none;
 }
