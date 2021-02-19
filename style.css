@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #c3d1da; 
     margin: 0;
@@ -5,35 +7,47 @@ body {
     font-size: 15px;
     box-sizing: border-box;
     color: #292e31;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0% auto;
 }
 
 /* body:first-child {
     margin: 500px;
 } */
 
-.mainTitle {
+.title {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 2px;
     height: 55px;
     color: #68afdb;
     text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
     
 .image {
     display: block;
+    margin: 0 auto;
     width: 500px;
     border: 6px solid #62b1e2;
     margin-bottom: 50px;
     box-shadow: 4px 5px 5px #c46bee;
 }
 
-.titleSecond {
+.subtitle {
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 1px;
     height: 35px;
     color: #c46bee;
+    font-family: 'Roboto', sans-serif;
 }
 
 .aboutMe {
@@ -52,9 +66,11 @@ body {
 }
 
 .flaticon > li {
-        list-style: none;
-    background: url(https://img.icons8.com/small/2x/pixel-cat.png) no-repeat 0 5px;
-    padding-left: 50px;
+    list-style: none;
+    background: url(icon/pawprint.svg) no-repeat 0 14px;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: block;
       
     /* list-style-image: url(icon/pawprint.svg); */
    } 
@@ -97,6 +113,7 @@ body {
 
    .table {
         border-collapse: collapse;
+        font-style: italic;
     
    }
 
