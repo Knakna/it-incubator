@@ -3,26 +3,29 @@ body {
     margin: 0;
     padding: 0 10%;
     font-size: 15px;
+    box-sizing: border-box;
+    color: #292e31;
 }
 
-body:first-child {
+/* body:first-child {
     margin: 500px;
-}
+} */
 
 .mainTitle {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: 2px;
     height: 55px;
     color: #68afdb;
+    text-transform: uppercase;
 }
-
+    
 .image {
     display: block;
     width: 500px;
     border: 6px solid #62b1e2;
     margin-bottom: 50px;
-    box-shadow: 4px 5px 5px #c46bee ;
+    box-shadow: 4px 5px 5px #c46bee;
 }
 
 .titleSecond {
@@ -35,7 +38,112 @@ body:first-child {
 
 .aboutMe {
     text-indent: 1.5em;
+  }
+
+.formCity {
+    margin: 10px;
+    padding: 8px 10px;
+    background: #68afdb;
+    color: #0a3a58;
+    outline:none;
+    box-shadow: 4px 5px 5px #c46bee;
+    cursor: pointer;
+    
 }
+
+.flaticon > li {
+        list-style: none;
+    background: url(https://img.icons8.com/small/2x/pixel-cat.png) no-repeat 0 5px;
+    padding-left: 50px;
+      
+    /* list-style-image: url(icon/pawprint.svg); */
+   } 
+   
+   .red>li:nth-child(2) {
+       color: red;
+   }
+
+   .add {
+       border: none;
+       margin-top: 10px;
+       padding: 10px 30px;
+       width: 100px;
+       height: 15px;
+       border-radius: 25px;
+       display: block;
+       /* border-color: #c46bee; */
+   }
+
+   .add:hover {
+       box-shadow: 4px 5px 5px #c46bee;
+   }
+
+   .add:focus {
+    border: 1px solid rgb(207, 87, 123);
+    outline:none;
+   }
+
+   a {
+       text-decoration: none;
+       color: red;
+       margin: 20px;
+       display: block;
+       text-transform: uppercase;
+   }
+
+   a:hover {
+       color: #520655;
+   }
+
+   .table {
+        border-collapse: collapse;
+    
+   }
+
+    td, tr, th {
+        border: 2px dotted rgb(200, 6, 248);
+        padding: 5px 10px;
+
+    }
+
+   th {
+    align-items: center;
+    background: #c46bee;
+       
+}
+
+   .btn {
+       margin: 20px 30px;
+       background: linear-gradient(to top, #30023b, #a70491);
+       text-transform: uppercase;
+       padding: 5px;
+       border-radius: 8px;
+       border: none;
+       outline:none;
+       cursor: pointer;
+   }
+
+      .btn:hover {
+       opacity: .7;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

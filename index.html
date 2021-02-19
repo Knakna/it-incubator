@@ -16,9 +16,9 @@
 
    <p class="aboutMe">В данный момент я работаю инструктором-методистом в государственном учреждении «Специализированная детско-юношеская школа олимпийского резерва по спортивным единоборствам».  Работа интересная, но нет перспективы развития и роста. Через год (а может быть и раньше ;)) планирую сменить сферу деятельности.</p>
 
-   <form action="/" method="post">
+   <form  action="/" method="post">
     <label for="city">Выберите город:</label>
-    <select name="city" id="city">
+    <select class="formCity" name="city" id="city">
         <option value="Vitebsk">Витебск</option>
         <option value="Minsk" selected>Минск</option>
         <option value="Brest">Брест</option>
@@ -29,14 +29,14 @@
 </form>
 
 <h2 class="titleSecond">Любимые занятия:</h2>
-    <ul>
+    <ul class="flaticon">
         <li>Рыбалка</li>
         <li>Выезд с палаткой на природу</li>
         <li>Сбор грибов</li>
     </ul>
 
 <h2 class="titleSecond">Инструкция:</h2>  
-    <ul>
+    <ul class="red">
         <li>Открыть упаковку</li>
         <li>Высыпать содержимое в чашку</li>
         <li>Налить воды</li>
@@ -44,20 +44,19 @@
 
 <h2 class="titleSecond">Мои навыки</h2> 
 
-
     <input type="checkbox" checked>  <abbr title="HyperText Markup Language">HTML</abbr>5 <br>
     <input type="checkbox" checked>  <abbr title="Cascading Style Sheets">CSS</abbr>3 <br>
     <input type="checkbox" checked> Flex-box <br>
     <input type="checkbox"> Grid <br>
     <input type="checkbox"> Bootstrap <br>
     <input type="checkbox"> Jquery <br>
-    <input type="text" placeholder="Добавить навык">  <br>
+    <input class="add" type="text" placeholder="Добавить навык">  <br>
 
 <hr>
 
 <a href="https://it-incubator.by/">it-incubator</a>
 
-<table border="1">
+<table class="table" border="1">
         <tr>
             <th>№</th>
             <th>Пользователь</th>
