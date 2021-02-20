@@ -8,7 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Самостоятельное задание</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,9 +21,7 @@
 
         <h1 class="title">куликова наталия алексеевна</h1>
 
-        <img class="image"
-            src="img/cat.jpg"
-            alt="cat">
+        <img class="image" src="img/cat.jpg" alt="cat">
 
         <p class="aboutMe">В данный момент я работаю
             инструктором-методистом в государственном
@@ -45,33 +45,45 @@
             </select>
         </form>
 
-        <h2 class="subtitle">Любимые занятия:</h2>
-        <ul class="flaticon">
-            <li>Рыбалка</li>
-            <li>Выезд с палаткой на природу</li>
-            <li>Сбор грибов</li>
-        </ul>
+        <section class="section">
+            <h2 class="subtitle">Любимые занятия:</h2>
+            <ul class="flaticon">
+                <li>Рыбалка</li>
+                <li>Выезд с палаткой на природу</li>
+                <li>Сбор грибов</li>
+            </ul>
+        </section>
 
-        <h2 class="subtitle">Инструкция:</h2>
-        <ol class="red">
-            <li>Открыть упаковку</li>
-            <li>Высыпать содержимое в чашку</li>
-            <li>Налить воды</li>
-        </ol>
+        <section class="section">
+            <h2 class="subtitle">Инструкция:</h2>
+            <ol class="instruction">
+                <li>Открыть упаковку</li>
+                <li>Высыпать содержимое в чашку</li>
+                <li>Налить воды</li>
+            </ol>
+        </section>
 
-        <h2 class="subtitle">Мои навыки</h2>
+        <section class="section">
 
-        <input type="checkbox" checked> <abbr
-            title="HyperText Markup Language">HTML</abbr>5
-        <br>
-        <input type="checkbox" checked> <abbr
-            title="Cascading Style Sheets">CSS</abbr>3 <br>
-        <input type="checkbox" checked> Flex-box <br>
-        <input type="checkbox"> Grid <br>
-        <input type="checkbox"> Bootstrap <br>
-        <input type="checkbox"> Jquery <br>
-        <input class="add" type="text"
-            placeholder="Добавить навык"> <br>
+            <h2 class="subtitle">Мои навыки:</h2>
+
+            <form class="skills" action="/">
+
+                <input type="checkbox" checked> <abbr
+                    title="HyperText Markup Language">HTML</abbr>5
+                <br>
+                <input type="checkbox" checked> <abbr
+                    title="Cascading Style Sheets">CSS</abbr>3
+                <br>
+                <input type="checkbox" checked> Flex-box
+                <br>
+                <input type="checkbox"> Grid <br>
+                <input type="checkbox"> Bootstrap <br>
+                <input type="checkbox"> Jquery <br>
+                <input class="add" type="text"
+                    placeholder="Добавить навык">
+            </form>
+        </section>
 
         <hr>
 
@@ -113,25 +125,10 @@
             </tr>
         </table>
 
-
         <button class="btn">Готово</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div> <!-- //page -->
 </body>
-
 </html>
+
+
