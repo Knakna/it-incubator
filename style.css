@@ -5,6 +5,7 @@ body {
     color: #292e31;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    line-height: 1.3;
     background-color: #c3d1da;
     background: linear-gradient(#c3d1da, rgb(202, 180, 202));
 }
@@ -17,11 +18,11 @@ h1, h2, p {
 .page {
     width: 100%;
     max-width: 1200px;
-    padding: 25px;
     margin: 0% auto;
 }
 
 .title {
+    margin-top: 30px;
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 2px;
@@ -40,15 +41,6 @@ h1, h2, p {
     border: 6px solid #62b1e2;
     box-shadow: 4px 5px 5px #c46bee;
     border-radius: 5px;
-}
-
-.subtitle {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    color: #c46bee;
-    font-family: 'Roboto', sans-serif;
 }
 
 .aboutMe {
@@ -74,6 +66,15 @@ h1, h2, p {
 
 .section {
     padding: 20px 100px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #c46bee;
+    font-family: 'Roboto', sans-serif;
 }
 
 .flaticon {
@@ -184,3 +185,65 @@ th {
 .btn:hover {
     opacity: .7;
 }
+
+/* @media 665 */
+
+@media (max-width: 665px) {
+    
+    .title {
+        margin: 20px 20px 10px;
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+        line-height: 1.2;
+    }
+    .image {
+        margin: 0 auto 15px;
+        width: 400px;
+    }
+    .aboutMe {
+        text-indent: 1.5em;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .section {
+        padding: 20px 50px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .table {
+        margin: auto;
+    }
+    .btn {
+        display: block;
+        margin: 20px auto;
+    }
+
+    /* @media 520 */
+
+    @media (max-width: 520px) {
+        .title {
+            font-size: 16px;
+        }
+        .image {
+            margin: 0 auto 15px;
+            width: 300px;
+        }
+        .aboutMe {
+            text-indent: 1.5em;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        .section {
+            padding: 20px 50px;
+        }
+        .subtitle {
+            font-size: 16px;
+        }
+        .skills .add {
+            width: 130px;
+            height: 15px;
+            margin-top: 5px 0;
+            padding: 10px;
+        }
